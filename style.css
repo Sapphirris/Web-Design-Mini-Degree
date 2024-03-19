@@ -1,0 +1,48 @@
+h1 { color:red}
+
+body { font-size: 20px}
+/* relative font sizing */
+p {
+    font-size: 0.75em;
+    font-family: 'Goldman', cursive;
+}
+
+.keypoint 
+{ 
+    font-style:italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* # gives us CSS styles by ID */
+#mainPar {
+    font-weight:bold;
+    color:purple
+}
+
+/* using .tag gives us CSS style by class name */
+.veg { color:green}
+.meat {color:firebrick}
+.carb {color:darkgoldenrod}
+
+#boxModel
+{
+    color:navy;
+    padding:20px;
+    background-color: aquamarine;
+    width: 200px;
+    height: 150px;
+    border: 4px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box2
+{
+    background-color: thistle;
+    margin-left: 20px;
+    
+    /* top | right | bottom | left */
+    padding:0px 10px 30px 20px
+}
