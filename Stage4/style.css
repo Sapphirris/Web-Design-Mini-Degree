@@ -1,0 +1,64 @@
+body {
+    background: gray;
+}
+#parent {
+    background: rgba(255,255,255,255);
+    display: flex;
+    flex-direction: column;
+}
+.child {width: 300px;}
+.child1{background: rgba(255,0,0,0.25);}
+.child2{background: rgba(0,255,0,0.25);}
+.child3{background: rgba(0,0,255,0.25);}
+
+
+/* pre CSS flexbox styles
+/* applies to everywhere unless overridden elsewhere 
+* {margin:0;}
+body {background: rgba(255,0,0,0.25);}
+header {
+    background: rgba(224,224,224,255);
+    height: 50;
+}
+section {
+    background: rgba(224,224,224,255);
+
+}
+aside {
+    background: rgba(224,224,224,255);
+    display: none;
+}
+footer {background: rgba(224,224,224,255);}
+
+
+/* applies to any device or browser with a screen width greater than 768
+
+@media screen and (min-width: 768px) {
+    body {background: rgba(0,255,0,0.25);}
+    aside {display: block;}
+}
+
+header {background: rgba(224,224,224,255);}
+section {background: rgba(224,224,224,255);}
+aside {background: rgba(224,224,224,255);}
+footer {background: rgba(224,224,224,255);}
+/* applies to any device or browser with a screen width greater than 1200px 
+
+@media screen and (min-width: 1200px) {
+    body {
+        background: rgba(0,0,255,0.25);
+    }
+    section{
+        float: left;
+        width: 80%
+    }
+    aside{
+        float: right;
+        width: 20%
+    }
+    footer{
+        clear: both;
+    }
+
+}
+*/
