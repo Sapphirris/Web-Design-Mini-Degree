@@ -2,15 +2,17 @@
     background: lightblue;
     margin: 10px;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+    flex-flow: row nowrap;
 }
 .childitem{
     width: 150px;
+    height: 60px;
     font-size: 24px;
 }
-.child1 { background: cornflowerblue; }
-.child2 { background: deepskyblue; }
+.child1 { background: cornflowerblue;
+flex-grow: 1; }
+.child2 { background: deepskyblue;
+flex-shrink: 3; }
 .child3 { background: dodgerblue; }
 .child4 { background: khaki; }
 .child5 { background: orange; }
